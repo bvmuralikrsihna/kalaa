@@ -1,0 +1,17 @@
+public class rectangle {
+    public int length;
+    public int width;
+
+    public rectangle(int length, int width) {
+      this.length = length;
+      this.width = width;
+    }
+
+    publi int getArea() {
+      return length * width;
+    }
+
+    public int getperimeter() {
+      return 2 * (length + width) ;
+    }
+ }
