@@ -1,1 +1,11 @@
-hi
+pipeline {
+  agent any
+
+    stages {
+      stage('build') {
+        steps {
+          sh 'ant -f duild.xml -v'
+        }
+    }
+  }
+}
